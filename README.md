@@ -1,7 +1,7 @@
 # TTIDA: Controllable Generative Data Augmentation via Text-to-Text and Text-to-Image Models
 
-* **Paper**:
-  * arXiv: https://arxiv.org/abs/2304.08821
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![arXiv](https://img.shields.io/badge/arXiv-2304.08821-b31b1b.svg)](https://arxiv.org/abs/2304.08821)
 
 * **Abstract**:
 
@@ -43,8 +43,8 @@ descriptions with a richer context, increasing the diversity of synthetic images
 ## Environment
 
 ```bash
-conda create -n finpt python=3.9
-conda activate finpt
+conda create -n ttida python=3.9
+conda activate ttida
 pip install -r requirements.txt
 ```
 
@@ -138,5 +138,6 @@ Please refer to the [LICENSE](./LICENSE) file for more details.
   author  = {Yin, Yuwei and Kaddour, Jean and Zhang, Xiang and Nie, Yixin and Liu, Zhenguang and Kong, Lingpeng and Liu, Qi},
   journal = {arXiv preprint arXiv:2304.08821},
   year    = {2023},
+  url     = {https://arxiv.org/abs/2304.08821},
 }
 ```
